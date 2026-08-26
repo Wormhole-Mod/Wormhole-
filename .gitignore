@@ -1,0 +1,5 @@
+Minecraft/logs/
+Minecraft/debug/
+*.lock
+cache/
+
