@@ -11,7 +11,7 @@ if git diff-index --quiet HEAD --; then
     echo "✨ No changes to sync."
 else
     git commit -m "Auto-sync Minecraft state: $(date)"
-    git push https://<YOUR_GITHUB_TOKEN>@github.com/Wormhole-Mod/Wormhole-.git main
+    git push https://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@github.com/Wormhole-Mod/Wormhole-.git main
     echo "✅ Successfully pushed changes to GitHub!"
 fi
 
