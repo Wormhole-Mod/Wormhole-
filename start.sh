@@ -2,7 +2,7 @@
 
 if [ ! -d ".git" ]; then
     echo "🔄 Cloning repository..."
-    git clone https://<YOUR_GITHUB_TOKEN>@github.com/Wormhole-Mod/Wormhole-.git .
+    git clone https://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@github.com/Wormhole-Mod/Wormhole-.git .
 else
     echo "🔄 Pulling latest changes from GitHub..."
     git pull origin main
