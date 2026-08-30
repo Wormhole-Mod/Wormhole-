@@ -1,0 +1,6 @@
+{
+  "name": "Minecraft Server",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "chmod +x start.sh stop.sh && ./start.sh"
+}
+
